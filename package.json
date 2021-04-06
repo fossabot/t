@@ -1,0 +1,24 @@
+{
+  "name": "t",
+  "version": "0.1.0",
+  "description": "testing: repo that has a dependency that was public but will be private",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/himynameisdave/t.git"
+  },
+  "keywords": [],
+  "author": "Dave Lunny <d@velunny.com> (https://himynameisdave.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/himynameisdave/t/issues"
+  },
+  "homepage": "https://github.com/himynameisdave/t#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "r": "git+https://github.com/himynameisdave/r.git"
+  }
+}
